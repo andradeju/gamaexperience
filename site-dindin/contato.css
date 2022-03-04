@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap);
+
+* {
+    font-family: "Ubuntu";
+}
+
+body {
+    margin: 0;
+}
+
+.container-logo {
+    background-color: #2e948a;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0, 25);
+    margin: 0 auto;
+}
+.logo {
+    margin: 50px 30px 0;
+    size: 56px;
+}
+
+.menu-item-link {
+    color: #fdfdfd;
+    text-decoration: none;
+}
+
+.menu {
+    list-style-type: none;
+    text-align: right;
+    word-spacing: 30px;
+    padding: 18px;
+    margin-right: 32px;
+}
+
+.menu-item {
+    display: inline;
+}
+
+main{
+    margin: 0 auto;
+    width: 80%;
+}
+
+#title{
+    color: #ff4081;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    width: 76%;
+}
+
+#container-form {
+ display: flex;
+ justify-content: center;
+ gap: 15px;
+ width: 100%;
+ margin: 20px auto;
+ flex-direction: row-reverse;
+}
+
+.ilustra-contato {
+    background-image: url("./styles/dindin-imagens/ilustra-contato.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+#container-form form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+#container-form form * {
+    margin: 20px 0;
+  }
+
+button {
+    background-color: #ff4081;
+    color: #ffffff;
+    border: 1px solid #ff4081;
+    border-radius: 50px;
+    padding: 3px;
+}
+
+input, textarea {
+    width:100%;
+}
+
+input,
+textarea,
+form {
+  border: 1px solid #686868;
+}
+
+
+footer {
+    background: #2e948a;
+    justify-content: flex-start;
+    display: flex;
+}
+
+#footer-content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0, 25);
+    padding: 0;
+}
+
+.rodape {
+    width: 312px;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.button-final {
+    background: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    padding: 9px;
+    margin-top: 50px;
+    margin-bottom: 18px;
+    font-size: 12px;
+}
